@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: test123_오목 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Sirius\AppData\Local\Temp\RSP7A00.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/test123_오목.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp"
+]
+Creating command line "cl.exe @C:\Users\Sirius\AppData\Local\Temp\RSP7A00.tmp" 
+<h3>Output Window</h3>
+Compiling...
+header.cpp
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(13) : error C2065: 'HANDLE' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(13) : error C2146: syntax error : missing ';' before identifier 'hConsole'
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(13) : error C2065: 'hConsole' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(14) : error C2065: 'CONSOLE_CURSOR_INFO' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(14) : error C2146: syntax error : missing ';' before identifier 'ConsoleCursor'
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(14) : error C2065: 'ConsoleCursor' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(16) : error C2065: 'GetStdHandle' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(16) : error C2065: 'STD_OUTPUT_HANDLE' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(18) : error C2228: left of '.bVisible' must have class/struct/union type
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(19) : error C2228: left of '.dwSize' must have class/struct/union type
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(21) : error C2065: 'SetConsoleCursorInfo' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(28) : error C2065: 'COORD' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(28) : error C2146: syntax error : missing ';' before identifier 'XY'
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(28) : error C2065: 'XY' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(28) : error C2059: syntax error : '{'
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(28) : error C2143: syntax error : missing ';' before '{'
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(28) : error C2143: syntax error : missing ';' before '}'
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(29) : error C2065: 'SetConsoleCursorPosition' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(56) : error C2065: 'GetAsyncKeyState' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(56) : error C2065: 'VK_UP' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(57) : error C2065: 'VK_DOWN' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(58) : error C2065: 'VK_LEFT' : undeclared identifier
+D:\Sirius\C_programing\내가한거4\test123_오목\header.cpp(59) : error C2065: 'VK_RIGHT' : undeclared identifier
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+header.obj - 23 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
